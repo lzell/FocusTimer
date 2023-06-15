@@ -12,15 +12,15 @@
 /// For example, in Term:
 ///
 ///     cd /usr/local/bin
-///     curl -O https://www.louzell.com/programs/FocusTimer
+///     curl -O https://www.louzell.com/programs/focus
 ///
 /// Make it executable:
 ///
-///     chmod +x FocusTimer
+///     chmod +x focus
 ///
 /// Run it:
 ///
-///     FocusTimer
+///     focus
 ///     :: Use ctrl+c to quit
 
 import AppKit
