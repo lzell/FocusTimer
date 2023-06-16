@@ -1,28 +1,7 @@
-#!/usr/bin/env swift
-///
 ///
 /// Creates a visual overlay of a timer in the bottom left corner.
 /// The timer counts down from 20 minutes in seconds.
 ///
-/// Usage
-/// -----
-///
-/// Save this program anywhere in your path, and make it executable.
-///
-/// For example, in Term:
-///
-///     cd /usr/local/bin
-///     curl -O https://www.louzell.com/programs/focus
-///
-/// Make it executable:
-///
-///     chmod +x focus
-///
-/// Run it:
-///
-///     focus
-///     :: Use ctrl+c to quit
-
 import AppKit
 import SwiftUI
 
