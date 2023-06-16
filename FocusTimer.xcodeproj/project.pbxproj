@@ -7,32 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DBB0ABB2A19C826002AB6CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBB0ABA2A19C826002AB6CC /* main.swift */; };
-		0DFC79562A3BFF4300D1647C /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC79552A3BFF4300D1647C /* Time.swift */; };
-		0DFC79582A3BFF5200D1647C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC79572A3BFF5200D1647C /* ContentView.swift */; };
+		0D9CB1292A3C308800ACD90E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB1282A3C308800ACD90E /* ContentView.swift */; };
+		0D9CB12B2A3C308800ACD90E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9CB12A2A3C308800ACD90E /* Assets.xcassets */; };
+		0D9CB12E2A3C308800ACD90E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9CB12D2A3C308800ACD90E /* Preview Assets.xcassets */; };
+		0D9CB1362A3C30A300ACD90E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB1352A3C30A300ACD90E /* Time.swift */; };
+		0D9CB1382A3C30F000ACD90E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB1372A3C30F000ACD90E /* main.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		0DBB0AB52A19C826002AB6CC /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0DBB0AB72A19C826002AB6CC /* FocusTimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FocusTimer; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DBB0ABA2A19C826002AB6CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		0DFC79552A3BFF4300D1647C /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
-		0DFC79572A3BFF5200D1647C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D9CB1232A3C308700ACD90E /* FocusTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9CB1282A3C308800ACD90E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D9CB12A2A3C308800ACD90E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D9CB12D2A3C308800ACD90E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D9CB12F2A3C308800ACD90E /* FocusTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusTimer.entitlements; sourceTree = "<group>"; };
+		0D9CB1352A3C30A300ACD90E /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		0D9CB1372A3C30F000ACD90E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0DBB0AB42A19C826002AB6CC /* Frameworks */ = {
+		0D9CB1202A3C308700ACD90E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,42 +35,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DBB0AAE2A19C826002AB6CC = {
+		0D9CB11A2A3C308700ACD90E = {
 			isa = PBXGroup;
 			children = (
-				0DBB0AB92A19C826002AB6CC /* FocusTimer */,
-				0DBB0AB82A19C826002AB6CC /* Products */,
+				0D9CB1252A3C308700ACD90E /* FocusTimer */,
+				0D9CB1242A3C308700ACD90E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0DBB0AB82A19C826002AB6CC /* Products */ = {
+		0D9CB1242A3C308700ACD90E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DBB0AB72A19C826002AB6CC /* FocusTimer */,
+				0D9CB1232A3C308700ACD90E /* FocusTimer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0DBB0AB92A19C826002AB6CC /* FocusTimer */ = {
+		0D9CB1252A3C308700ACD90E /* FocusTimer */ = {
 			isa = PBXGroup;
 			children = (
-				0DFC79572A3BFF5200D1647C /* ContentView.swift */,
-				0DBB0ABA2A19C826002AB6CC /* main.swift */,
-				0DFC79552A3BFF4300D1647C /* Time.swift */,
+				0D9CB1372A3C30F000ACD90E /* main.swift */,
+				0D9CB1282A3C308800ACD90E /* ContentView.swift */,
+				0D9CB12A2A3C308800ACD90E /* Assets.xcassets */,
+				0D9CB12F2A3C308800ACD90E /* FocusTimer.entitlements */,
+				0D9CB12C2A3C308800ACD90E /* Preview Content */,
+				0D9CB1352A3C30A300ACD90E /* Time.swift */,
 			);
 			path = FocusTimer;
+			sourceTree = "<group>";
+		};
+		0D9CB12C2A3C308800ACD90E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D9CB12D2A3C308800ACD90E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DBB0AB62A19C826002AB6CC /* FocusTimer */ = {
+		0D9CB1222A3C308700ACD90E /* FocusTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DBB0ABE2A19C826002AB6CC /* Build configuration list for PBXNativeTarget "FocusTimer" */;
+			buildConfigurationList = 0D9CB1322A3C308800ACD90E /* Build configuration list for PBXNativeTarget "FocusTimer" */;
 			buildPhases = (
-				0DBB0AB32A19C826002AB6CC /* Sources */,
-				0DBB0AB42A19C826002AB6CC /* Frameworks */,
-				0DBB0AB52A19C826002AB6CC /* CopyFiles */,
+				0D9CB11F2A3C308700ACD90E /* Sources */,
+				0D9CB1202A3C308700ACD90E /* Frameworks */,
+				0D9CB1212A3C308700ACD90E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -85,25 +89,25 @@
 			);
 			name = FocusTimer;
 			productName = FocusTimer;
-			productReference = 0DBB0AB72A19C826002AB6CC /* FocusTimer */;
-			productType = "com.apple.product-type.tool";
+			productReference = 0D9CB1232A3C308700ACD90E /* FocusTimer.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0DBB0AAF2A19C826002AB6CC /* Project object */ = {
+		0D9CB11B2A3C308700ACD90E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					0DBB0AB62A19C826002AB6CC = {
+					0D9CB1222A3C308700ACD90E = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 0DBB0AB22A19C826002AB6CC /* Build configuration list for PBXProject "FocusTimer" */;
+			buildConfigurationList = 0D9CB11E2A3C308700ACD90E /* Build configuration list for PBXProject "FocusTimer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,31 +115,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 0DBB0AAE2A19C826002AB6CC;
-			productRefGroup = 0DBB0AB82A19C826002AB6CC /* Products */;
+			mainGroup = 0D9CB11A2A3C308700ACD90E;
+			productRefGroup = 0D9CB1242A3C308700ACD90E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DBB0AB62A19C826002AB6CC /* FocusTimer */,
+				0D9CB1222A3C308700ACD90E /* FocusTimer */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0D9CB1212A3C308700ACD90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9CB12E2A3C308800ACD90E /* Preview Assets.xcassets in Resources */,
+				0D9CB12B2A3C308800ACD90E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0DBB0AB32A19C826002AB6CC /* Sources */ = {
+		0D9CB11F2A3C308700ACD90E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DFC79562A3BFF4300D1647C /* Time.swift in Sources */,
-				0DBB0ABB2A19C826002AB6CC /* main.swift in Sources */,
-				0DFC79582A3BFF5200D1647C /* ContentView.swift in Sources */,
+				0D9CB1362A3C30A300ACD90E /* Time.swift in Sources */,
+				0D9CB1292A3C308800ACD90E /* ContentView.swift in Sources */,
+				0D9CB1382A3C30F000ACD90E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0DBB0ABC2A19C826002AB6CC /* Debug */ = {
+		0D9CB1302A3C308800ACD90E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		0DBB0ABD2A19C826002AB6CC /* Release */ = {
+		0D9CB1312A3C308800ACD90E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,20 +264,52 @@
 			};
 			name = Release;
 		};
-		0DBB0ABF2A19C826002AB6CC /* Debug */ = {
+		0D9CB1332A3C308800ACD90E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusTimer/FocusTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louzell.FocusTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		0DBB0AC02A19C826002AB6CC /* Release */ = {
+		0D9CB1342A3C308800ACD90E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusTimer/FocusTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louzell.FocusTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -269,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DBB0AB22A19C826002AB6CC /* Build configuration list for PBXProject "FocusTimer" */ = {
+		0D9CB11E2A3C308700ACD90E /* Build configuration list for PBXProject "FocusTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DBB0ABC2A19C826002AB6CC /* Debug */,
-				0DBB0ABD2A19C826002AB6CC /* Release */,
+				0D9CB1302A3C308800ACD90E /* Debug */,
+				0D9CB1312A3C308800ACD90E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DBB0ABE2A19C826002AB6CC /* Build configuration list for PBXNativeTarget "FocusTimer" */ = {
+		0D9CB1322A3C308800ACD90E /* Build configuration list for PBXNativeTarget "FocusTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DBB0ABF2A19C826002AB6CC /* Debug */,
-				0DBB0AC02A19C826002AB6CC /* Release */,
+				0D9CB1332A3C308800ACD90E /* Debug */,
+				0D9CB1342A3C308800ACD90E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0DBB0AAF2A19C826002AB6CC /* Project object */;
+	rootObject = 0D9CB11B2A3C308700ACD90E /* Project object */;
 }
